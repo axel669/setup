@@ -1,0 +1,21 @@
+{
+  "name": "@axel669/setup",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "bin": {
+    "quick-setup": "main.js"
+  },
+  "scripts": {
+    "test/list": "npx quick-setup test axel669/lib.zephyr",
+    "test/grab": "npx quick-setup test axel669/lib.zephyr 0.4.6"
+  },
+  "keywords": [],
+  "author": "Axel",
+  "license": "MIT",
+  "dependencies": {
+    "@axel669/http": "^0.1.2",
+    "fs-jetpack": "^5.1.0"
+  }
+}

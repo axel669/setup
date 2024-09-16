@@ -1,0 +1,52 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@axel669/http':
+        specifier: ^0.1.2
+        version: 0.1.2
+      fs-jetpack:
+        specifier: ^5.1.0
+        version: 5.1.0
+
+packages:
+
+  '@axel669/http@0.1.2':
+    resolution: {integrity: sha512-eP2lwzszMvVDjB0hVraLxlHIVBqiqhYVjk+TfhifhKlE/3K26EN5ym6KvjW32w7sONJaZ7hTqNSWX4beheqU0g==}
+
+  balanced-match@1.0.2:
+    resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+
+  brace-expansion@2.0.1:
+    resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
+
+  fs-jetpack@5.1.0:
+    resolution: {integrity: sha512-Xn4fDhLydXkuzepZVsr02jakLlmoARPy+YWIclo4kh0GyNGUHnTqeH/w/qIsVn50dFxtp8otPL2t/HcPJBbxUA==}
+
+  minimatch@5.1.6:
+    resolution: {integrity: sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==}
+    engines: {node: '>=10'}
+
+snapshots:
+
+  '@axel669/http@0.1.2': {}
+
+  balanced-match@1.0.2: {}
+
+  brace-expansion@2.0.1:
+    dependencies:
+      balanced-match: 1.0.2
+
+  fs-jetpack@5.1.0:
+    dependencies:
+      minimatch: 5.1.6
+
+  minimatch@5.1.6:
+    dependencies:
+      brace-expansion: 2.0.1
